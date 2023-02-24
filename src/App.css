@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: none;
+}
+
+
+
+#container_one {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+   width: 50%;
+}
+
+
+
+.master_cont {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+}

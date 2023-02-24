@@ -1,0 +1,24 @@
+a {
+    color: brown;
+    font-family: 'Brassiere Line', sans-serif;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover {
+    color: chartreuse;
+    font-size: 65px;
+}
+
+@media screen and  (max-width: 500px){
+    a:hover {
+        font-size: 65px;
+    };
+    .main_cont {
+        justify-content: center;
+        align-items: center;
+    }
+}
+    
