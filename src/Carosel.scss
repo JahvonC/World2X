@@ -1,11 +1,12 @@
 $slide-count: 5;
-$slide-width: 30rem;
+$slide-width: 40rem;
 
 html {
   box-sizing: border-box;
   font-size: 10px;
   @media (max-width: 425px) {
     font-size: 8px;
+
   }
 }
 
@@ -27,10 +28,7 @@ ul {
   padding: 0;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
+
 
 .carousel__wrap {
     margin-top: 10%;
@@ -72,7 +70,7 @@ a {
     display: inline-block;
     height: $slide-width;
     margin: 0;
-    padding: 1rem;
+    padding: 2rem;
     position: absolute;
     transition: all 0.3s;
     width: $slide-width;
@@ -167,7 +165,7 @@ a {
 .carousel__dots {
     display: inline-block;
     left: 50%;
-    margin-top: 2rem;
+    margin-top: 5px;
     position: absolute;
     transform: translateX(-50%);
 
@@ -187,3 +185,5 @@ a {
         }
     }
 }
+
+

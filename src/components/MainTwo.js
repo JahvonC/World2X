@@ -20,9 +20,9 @@ const MainTwo = () => {
                     <label className='text-light' htmlFor='name'>
                         Name:
                     </label>
-                    <input style={{border: '1px solid white', borderRadius: '15px'}} type='text' placeholder='Enter Your Name'/>
+                    <input style={{border: '1px solid white', borderRadius: '15px'}} type='text' placeholder='Enter Your Name' XXXautofocusXXX/>
                     <label htmlFor='email'>Email:</label>
-                    <input  type='email' placeholder='Enter Your Email'/>
+                    <input  type='email' placeholder='Enter Your Email' XXXautofocusXXX/>
                 </fieldset>
             </Form>
   

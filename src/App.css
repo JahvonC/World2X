@@ -21,3 +21,11 @@
     justify-content: space-between;
     border: 1px solid white;
 }
+
+
+@media screen and (max-Width: 460px) {
+    img {
+        width: 50%;
+        height: 2rem;
+    }
+}

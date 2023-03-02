@@ -6,7 +6,7 @@ import './Carosel.scss'
 
 2. if you want to change the dimensions of the slides you will need to edit the slideWidth variable here 👇 and the $slide-width variable in the CSS.
 ************************************/
-const slideWidth = 30;
+const slideWidth = 100;
 
 const _items = [
     {
@@ -40,8 +40,6 @@ const _items = [
     },
     {
         player: {
-            title: 'Willie Mosconi',
-            desc: 'Nicknamed "Mr. Pocket Billiards," Willie Mosconi was among the first Billiard Congress of America Hall of Fame inductees.',
             video: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/764008825&color=%23acc53a&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true',
         },
     },

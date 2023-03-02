@@ -1,6 +1,6 @@
 import React from 'react'
 import './Nav.scss'
-import { Container, Col} from 'react-bootstrap';
+import { Container, Col, Row} from 'react-bootstrap';
 import 'bootstrap'
 
 
@@ -13,13 +13,13 @@ const NavBar = () => {
 
   return (
     <Container fluid className='main_cont'>
-      <Col className='navContent'>
-        <Col>
-          <a className='text-decoration-none' href='#'>WORLD 2X</a>
-        </Col>
-        </Col>
+      <Row>
+         <a href='#'>World2X</a>
+         <a href='#'>Booking</a>
+         <a href='#'>Dates</a> 
+      </Row>
     </Container>
   )
 }
 
-export default NavBar
+export default NavBar;

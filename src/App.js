@@ -12,21 +12,24 @@ import image3 from '/workspaces/World2X/src/assets/JahvonC_an_album_cover_with_a
 
 
 function UpperStrip() {
-
+  // const style = {
+  //   width: '100%',
+  //   height: '100%'
+  // }
 
  
 
   return (
-    <Container className='bg-dark text-light text-center p-5 w-100'>
+    <Container className='text-center mt-5'>
       <Row>
         <Col>
-          <img className='bg-dark justify-content-center' src={image1} alt='two women album cover'/>
+          <img  className='bg-dark' src={image1} alt='two women album cover'/>
         </Col>
         <Col>
-          <img className='' src={image2} alt=''/>
+          <img  className='' src={image2} alt='album cover'/>
         </Col>
         <Col>
-          <img src={image3} alt=''/>
+          <img  src={image3} alt='album cover'/>
         </Col>
       </Row>
     </Container>
@@ -47,11 +50,11 @@ function App() {
        <Container fluid className="text-center bg-dark">
           <NavBar/>
        </Container>
-       <UpperStrip/>
        <Container className="bg-dark mb-5">
-        <Container className="bg-light justify-content-center">
+        <Container className="bg-dark justify-content-center mb-5">
             <Carosel/>
         </Container>
+        <UpperStrip/>
        </Container>
        <MainTwo/>
     </>
