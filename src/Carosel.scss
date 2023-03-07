@@ -31,7 +31,7 @@ ul {
 
 
 .carousel__wrap {
-    margin-top: 10%;
+   
     align-items: center;
     display: flex;
     flex: 1;
@@ -88,7 +88,7 @@ ul {
         height: 100%;
         object-fit: cover;
         transition: all 0.5s ease;
-        width: 100%;
+        width: 100vw;
     }
 
     // &::after {
@@ -170,7 +170,7 @@ ul {
     transform: translateX(-50%);
 
     .dot {
-        background: #ccc;
+        background: #ff0101;
         border: 0;
         border-radius: 50%;
         cursor: pointer;

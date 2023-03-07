@@ -20,16 +20,17 @@ function UpperStrip() {
  
 
   return (
-    <Container className='text-center mt-5'>
+    <Container fluid className='text-center border-none bg-dark'>
       <Row>
         <Col>
-          <img  className='bg-dark' src={image1} alt='two women album cover'/>
+          <img  className='' src={image1} alt='two women album cover'/>
         </Col>
         <Col>
-          <img  className='' src={image2} alt='album cover'/>
+          <img  className='float-right' src={image2} alt='album cover'/>
+          
         </Col>
         <Col>
-          <img  src={image3} alt='album cover'/>
+          <img className='float-left'  src={image3} alt='album cover'/>
         </Col>
       </Row>
     </Container>
@@ -50,11 +51,11 @@ function App() {
        <Container fluid className="text-center bg-dark">
           <NavBar/>
        </Container>
-       <Container className="bg-dark mb-5">
+       <Container fluid className="bg-dark">
         <Container className="bg-dark justify-content-center mb-5">
             <Carosel/>
         </Container>
-        <UpperStrip/>
+        <UpperStrip className='container-fluid'/>
        </Container>
        <MainTwo/>
     </>

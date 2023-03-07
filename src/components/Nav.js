@@ -14,9 +14,11 @@ const NavBar = () => {
   return (
     <Container fluid className='main_cont'>
       <Row>
-         <a href='#'>World2X</a>
-         <a href='#'>Booking</a>
-         <a href='#'>Dates</a> 
+        <Col className='d-flex justify-content-between'>
+          <a href='#'>World2X</a>
+          <a href='#'>Booking</a>
+          <a href='#'>Dates</a> 
+        </Col>
       </Row>
     </Container>
   )

@@ -3,29 +3,28 @@
     margin: 0;
     overflow: none;
 }
+xs
 
-
-
-#container_one {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-content: center;
-   width: 50%;
+img {
+    margin-bottom: 25px;
+    animation-name: imageFloat;
+    animation-duration: 2s;
 }
 
 
+@keyframes imageFloat{
 
-.master_cont {
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid white;
-}
-
-
-@media screen and (max-Width: 460px) {
-    img {
-        width: 50%;
-        height: 2rem;
+    0% {
+        transform: translateX(0deg);
     }
+    25% {
+        transform: translateX(5deg);
+    }
+    50% {
+        transform: translateX(-5deg);
+    }
+    100% {
+        transform: translateX(5deg);
+    }
+    
 }
